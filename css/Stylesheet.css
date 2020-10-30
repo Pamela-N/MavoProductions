@@ -18,6 +18,8 @@ body, html {
     position: absolute;
     top: 5px;
     left: 41.5vw;
+    height: 150px;
+    width: 210px;
   }
   
   .bottomleft {
@@ -41,4 +43,39 @@ body, html {
 
   p {
     font-size: medium;
+  }
+
+  @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+    
+    .topleft {
+      position: absolute;
+      top: 5px;
+      left: 35vw;
+      height: 130px ;
+      width: 190px ;
+    }
+
+    .bottomleft {
+      position: absolute;
+      bottom: 0;
+      left: 16px;
+    }
+    
+    .middle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    hr {
+      margin: auto;
+      width: 40%;
+    }
+  
+    p {
+      font-size: medium;
+    }
+
   }
