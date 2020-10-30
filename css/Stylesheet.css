@@ -16,8 +16,8 @@ body, html {
   
   .topleft {
     position: absolute;
-    top: 5px;
-    left: 18vw;
+    top: 7px;
+    left: 23vw;
   }
   
   .bottomleft {
@@ -28,8 +28,8 @@ body, html {
   
   .middle {
     position: absolute;
-    top: 50%;
-    left: 45%;
+    top: 52%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
