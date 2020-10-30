@@ -4,7 +4,7 @@ body, html {
   }
   
   .bgimg {
-    background-image: url('../assets/images/tulips.jpg');
+    background-image: url('../assets/images/black\ two.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -16,8 +16,8 @@ body, html {
   
   .topleft {
     position: absolute;
-    top: 0;
-    left: 16px;
+    top: 5px;
+    left: 41.5vw;
   }
   
   .bottomleft {
